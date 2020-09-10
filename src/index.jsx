@@ -10,7 +10,8 @@ import '../assets/stylesheets/application.scss';
 
 // State and reducers
 const reducers = combineReducers({
-  changeMe: (state = null, action) => state
+  // changeMe: (state = null, action) => state
+  cities: citiesReducer
 });
 
 // render an instance of the component in the DOM
