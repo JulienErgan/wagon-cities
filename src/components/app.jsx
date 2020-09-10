@@ -1,10 +1,11 @@
 import React from 'react';
-import cities from '../cities';
+
+
 
 import CityList from '../containers/city_list';
 
 // TODO: remove this line and use Redux
-
+import cities from '../cities';
 // const cities = [
 //   { name: 'Paris', address: '16 Villa Gaudelet, 75011 Paris', slug: 'paris' },
 //   { name: 'London', address: '14-22 Elder St, London E1 6BT', slug: 'london' },
