@@ -6,8 +6,10 @@ import setActiveCity from '../actions/index';
 
 
 class City extends Component {
+    
 
     handleClick = () => {
+        // debugger
         this.props.setActiveCity(this.props.city)
         // if (this.props.setActiveCity) {
         //     this.props.setActiveCity(this.props.city)
